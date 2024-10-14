@@ -10,7 +10,7 @@ from torch.optim.lr_scheduler import CosineAnnealingWarmRestarts
 from torch.utils.data import TensorDataset, DataLoader
 
 # Check if CUDA is available and set the device
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda")
 print(f"Using device: {device}")
 
 # Load and preprocess the dataset
